@@ -32,3 +32,8 @@ body{
       .parallax--text>h2{
         margin: 15px;
       }
+
+    .paralax--mountains{
+      width: 100%;
+      /* height: 25%; */
+    }
