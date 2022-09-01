@@ -70,7 +70,7 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={4.6}
+          offset={4.65}
           speed={1}
         >
           <img src={Mountain3} className="paralax--mountains"/>
