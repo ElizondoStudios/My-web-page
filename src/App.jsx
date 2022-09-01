@@ -55,8 +55,7 @@ function App() {
           <h2>{Myself.other[languaje].title}</h2>
           <h3>{Myself.other[languaje].text}</h3>
         </ParallaxLayer>
-
-        <ParallaxLayer
+      <ParallaxLayer
           offset={4.6}
           speed={0.2}
         >
