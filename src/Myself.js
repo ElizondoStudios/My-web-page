@@ -19,7 +19,7 @@ export default{
             ]
         },
         {
-            title: "-My skillset includes:",
+            title: "-My skill set includes:",
             skills: [
                 "-Photoshop",
                 "-Office",
@@ -30,7 +30,11 @@ export default{
     other: [
         {
             title: "Otras cosas importantes sobre mí: ",
-            text: "Estoy familiarizado y he hecho proyectos en C++, C# y Python. Me gusta mucho trabajar en equipo, y ayudar a los demás. Tengo dominio del idioma inglés y también sé un poco de francés. Soy proactivo, y me gusta esforzarme para conseguir las cosas."
-        }
+            text: "Estoy familiarizado y he hecho proyectos en C++, C# y Python. Me gusta mucho trabajar en equipo, y ayudar a los demás. Tengo dominio del idioma inglés y también sé un poco de francés. Soy proactivo y me gusta esforzarme para conseguir mis metas."
+        },
+        {
+            title: "Other noteworthy things about myself: ",
+            text: "I'm familiarized and I've done projects in C++, C# and Python. I realy like working in teams, and helping out others. Spanish is my native languaje, I have native-speaker levels of english and I also speak a bit of french. I'm proactive and I love making an effort to achieve my goals."
+        }   
     ]
 }

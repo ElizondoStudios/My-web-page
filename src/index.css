@@ -7,15 +7,22 @@ body{
   margin: 0;
 }
 
+::-webkit-scrollbar{
+  background-color: rgb(155, 155, 155);
+}
+
+  ::-webkit-scrollbar-thumb{
+    background-color: rgba(104, 136, 243, 0.37);
+    border-radius: 5px;
+  }
+
 .App{
   text-align: center;
   color: white;
 }
 
   .parallax{
-    background-image: url("../src/assets/pexels-marko-obrvan-306344.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: linear-gradient(rgb(6,13,19), rgb(16,40,62), rgb(70,79,96), rgb(100,101,106), rgb(248, 112, 12));
   }
 
     .parallax--text{
