@@ -56,14 +56,14 @@ function App() {
           <h3>{Myself.other[languaje].text}</h3>
         </ParallaxLayer>
       <ParallaxLayer
-          offset={4.6}
+          offset={4.65}
           speed={0.2}
         >
           <img src={Mountain1} className="paralax--mountains"/>
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={4.6}
+          offset={4.65}
           speed={0.5}
         >
           <img src={Mountain2} className="paralax--mountains"/>
