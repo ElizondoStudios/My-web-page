@@ -1,0 +1,27 @@
+html{
+  font-size: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.App{
+  text-align: center;
+  color: white;
+}
+
+  .parallax{
+    background-image: url("../src/assets/pexels-marko-obrvan-306344.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+    .parallax--text{
+      font-size: 2rem;
+    }
+
+      .parallax--text>h2{
+        margin: 15px;
+      }
