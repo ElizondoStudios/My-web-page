@@ -17,6 +17,7 @@ function App() {
   
   return (
     <div className="App">
+      <main>
       <Parallax pages={5}>
 
         <ParallaxLayer
@@ -91,6 +92,7 @@ function App() {
           />
         </ParallaxLayer>
       </Parallax>
+      </main>
     </div>
   )
 }
