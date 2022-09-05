@@ -3,9 +3,9 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 import FindMe from '../components/FindMe'
 
-import Mountain1 from "./assets/mountain_1.png"
-import Mountain2 from "./assets/mountain_2.png"
-import Mountain3 from "./assets/mountain_3.png"
+import Mountain1 from "./assets/mountain_1_small.png"
+import Mountain2 from "./assets/mountain_2_small.png"
+import Mountain3 from "./assets/mountain_3_small.png"
 
 import Myself from './Myself'
 

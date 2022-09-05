@@ -1,6 +1,6 @@
-import Github from "../src/assets/github.png"
-import Linkedin from "../src/assets/linkedin.png"
-import Email from "../src/assets/email.png"
+import Github from "../src/assets/github_small.png"
+import Linkedin from "../src/assets/linkedin_small.png"
+import Email from "../src/assets/email_small.png"
 
 
 function FindMe(props){
@@ -19,7 +19,8 @@ function FindMe(props){
             <a 
                 href={props.email}
                 >
-                <img src={Email} className="findme--icon"/>
+                <img src={Email
+                } className="findme--icon"/>
             </a>
         </div>
     )
