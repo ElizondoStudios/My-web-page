@@ -36,5 +36,10 @@ export default{
             title: "Other noteworthy things about myself: ",
             text: "I'm familiarized and I've done projects in C++, C# and Python. I realy like working in teams, and helping out others. Spanish is my native languaje, I have native-speaker levels of english and I also speak a bit of french. I'm proactive and I love making an effort to achieve my goals."
         }   
-    ]
+    ],
+    links: {
+            linkedin: "https://www.linkedin.com/in/jos%C3%A9-luis-elizondo-562398231",
+            github: "https://github.com/ElizondoStudios",
+            email: "mailto:elizondostudios@gmail.com"
+            }
 }

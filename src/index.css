@@ -38,3 +38,22 @@ body{
       height: 275px;
       /* height: 25%; */
     }
+
+/* ############################
+          FindME 
+   ############################*/
+
+.findme{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+  .findme--icon{
+    max-width: 120px;
+  }
+
+    .findme--icon:hover{
+      max-width: 110px;
+      padding-left: 10px;
+    }

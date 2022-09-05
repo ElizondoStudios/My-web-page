@@ -1,6 +1,8 @@
 import React from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
+import FindMe from '../components/FindMe'
+
 import Mountain1 from "./assets/mountain_1.png"
 import Mountain2 from "./assets/mountain_2.png"
 import Mountain3 from "./assets/mountain_3.png"
@@ -76,6 +78,18 @@ function App() {
           <img src={Mountain3} className="paralax--mountains"/>
         </ParallaxLayer>
 
+        <ParallaxLayer
+          offset={4.5}
+          className="parallax--text"
+        >
+          <h2>{languaje==0?"Encuéntrame aquí:": "Find me here:"}</h2>
+          <FindMe
+            lang={languaje}
+            github={Myself.links.github}
+            linkedin={Myself.links.linkedin}
+            email={Myself.links.email}          
+          />
+        </ParallaxLayer>
       </Parallax>
     </div>
   )
