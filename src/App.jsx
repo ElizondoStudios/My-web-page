@@ -19,14 +19,21 @@ function App() {
     <div className="App">
       <main>
       <Parallax pages={5}>
-
         <ParallaxLayer
           factor={5}
           className="parallax"
         />
+        <ParallaxLayer
+          speed={0.5}
+        >
+          <div className='languaje'>
+            <button className='languaje--buttons' id="EN" onClick={()=>{setLanguaje(1)}}>EN</button>
+            <button  className='languaje--buttons' id="ES" onClick={()=>{setLanguaje(0)}}>ES</button>
+          </div>
+        </ParallaxLayer>
 
         <ParallaxLayer
-          offset={0}
+          offset={0.2}
           speed={1}
           className="parallax--text"
         >

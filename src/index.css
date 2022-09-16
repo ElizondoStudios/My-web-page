@@ -51,9 +51,36 @@ body{
 
   .findme--icon{
     max-width: 120px;
+    transition: ease-in 0.1s;
   }
 
     .findme--icon:hover{
-      max-width: 110px;
-      padding-left: 10px;
+      transform: scale(1.1);
     }
+
+/* ############################
+          Languaje buttons
+   ############################*/
+
+.languaje{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.languaje--buttons{
+  background-color: transparent;
+  border: solid 3px white;
+  border-radius: 30%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  transition: ease-in 0.2s;
+}
+
+  .languaje--buttons:hover{
+    color: rgb(9, 21, 32);
+    background-color: white;
+  }
